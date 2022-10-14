@@ -20,7 +20,7 @@ function convert(){
     userNum = userNumEl.value;
     lengthEl.textContent = `${userNum} meters = ${(userNum*3.281).toFixed(3)} feet | ${userNum} feet = ${(userNum/3.281).toFixed(3)} meters`
     volumeEl.textContent = `${userNum} liters = ${(userNum*0.264).toFixed(3)} gallons | ${userNum} gallons = ${(userNum/0.264).toFixed(3)} liters`
-    massEl.textContent = `${userNum} kilograms = ${(userNum*2.204).toFixed(3)} pounds | ${userNum} pounds = ${(userNum/2.204).toFixed(3)} kilos`
+    massEl.textContent = `${userNum} kils = ${(userNum*2.204).toFixed(3)} pounds | ${userNum} pounds = ${(userNum/2.204).toFixed(3)} kilos`
 }
 
 
